@@ -119,21 +119,24 @@ const findNemo = Object.keys(movies);
 document.write(findNemo)
 
 
-
-
 const tools = {
     shaper: {
         marke: "makita",
         power: 1000
     },
-    slipmaskin:{
-        marke:"dewalt",
+    slipmaskin: {
+        marke: "dewalt",
         power: 500
     }
-
-
 }
 
+
+tools.kapsag = "festool";
+
+
+
+let key = Object.keys(tools)
+alert(key)
 
 
 
